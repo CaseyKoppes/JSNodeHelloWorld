@@ -1,7 +1,14 @@
 {
-	"name" : "HelloWorld",
-	"version": "1.0.0",
-	"main": "server.js",
-	"Scripts":{
-		"start": "node server.js"}
+  "name":               "cf-node-helloworld",
+
+  "main":               "./servers",
+
+  "description":        "Hello World",
+  "version":            "0.1.0",
+
+"dependencies":
+    {
+      "cfenv":          "1.0.x"
+    }
+  
 }

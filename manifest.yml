@@ -1,5 +1,5 @@
 applications:
 - name: server
-command: node server.js
 memory:  128M
+command: node servers.js
 buildpack: https://github.com/cloudfoundry/nodejs-buildpack
